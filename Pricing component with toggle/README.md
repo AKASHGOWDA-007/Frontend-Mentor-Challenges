@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Source Code](https://github.com/AKASHGOWDA-007/Frontend-Mentor-Challenges/tree/main/Pricing%20component%20with%20toggle)
+- Live Site URL: [Preview ↗](https://frontend-mentor-challenges-ykax-m2jzuemw8-akashgowda-007.vercel.app/)
 
 ## My process
 
