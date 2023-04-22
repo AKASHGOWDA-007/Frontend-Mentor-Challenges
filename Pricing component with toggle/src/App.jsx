@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Card from './components/card'
+import Card from './components/Card'
 import { data } from './data.js'
 import bgTop from "./images/bg-top.svg";
 import bgBottom from "./images/bg-bottom.svg";
