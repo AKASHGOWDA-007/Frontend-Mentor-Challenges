@@ -1,0 +1,118 @@
+.card {
+    width: 300px;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: var(--dark-Grayish-Blue);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #FFF;
+}
+
+.card:nth-child(2) {
+    background: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: #FFF;
+    transform: scale(1.1);
+}
+
+.card__title {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: var(--grayish-Blue);
+}
+
+.card:nth-child(2) .card__title {
+    color: #FFF;
+}
+
+.card__price span {
+    font-size: 1.5rem;
+}
+
+.card__price {
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.card__feature {
+    list-style: none;
+    margin-block: 1.5rem;
+}
+
+.card:nth-child(2) .card__feature li {
+    border-block: 1px solid rgba(255, 255, 255, 0.4);
+    padding-block: 1rem;
+    color: #FFF;
+}
+
+.card .card__feature li {
+    border-block: 0.5px solid var(--light-Grayish-Blue, 1);
+    padding-block: 1rem;
+    font-size: 0.9rem;
+    color: var(--grayish-Blue);
+}
+
+.card__feature li:nth-child(2) {
+    border-block: none;
+}
+
+.card .card__cta {
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-radius: 0.3rem;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.card .card__cta {
+    background: -webkit-linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: #FFF;
+}
+
+.card .card__cta:hover {
+    background: #FFF;
+    color: hsl(237, 63%, 64%);
+    outline: 1px solid  hsl(237, 63%, 64%);
+}
+
+.card:nth-child(2) .card__cta {
+    background: #FFF;
+    color: hsl(237, 63%, 64%);
+}
+
+.card:nth-child(2) .card__cta:hover {
+    background: -webkit-linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: #FFF;
+    outline: 1px solid white;
+}
+
+.card__cta:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+@media screen and (max-width: 950px) {
+    .card {
+        width: 350px;
+    }
+    .pricing__container {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    .card {
+        margin-block: 1rem;
+    }
+
+    .card:nth-child(2) {
+        transform: none;
+    }
+}
